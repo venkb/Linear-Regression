@@ -1,5 +1,6 @@
 #predict home prices in Ames, Iowa using multiple linear regression
 library(mice)
+library(caTools)
 
 #setwd(select the folder which contains train.csv)
 dataset = read.csv('train.csv')
